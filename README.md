@@ -1,80 +1,111 @@
-# ElementDetective Chemistry Game
+# ElementDetective: Chemistry Game 🧪
 
-## Overview
+**🎮 Play the Game: [https://element-detective-v2.netlify.app/](https://element-detective-v2.netlify.app/)**
 
-ElementDetective is an educational game designed to help players learn about the elements of the periodic table and chemical bonding. The game is divided into two main phases: the Mystery Element Challenge and the Bonding Challenge.
+---
 
-## Game Rules
+## 📖 Overview
 
-### Mystery Element Challenge
+**ElementDetective** is an interactive and educational game designed to make learning about the periodic table and chemical bonding fun! Test your knowledge as you uncover mystery elements and explore how they interact.
 
-1.  **Mystery Element Selection:**
-    *   A mystery element is randomly selected from the first 20 elements of the periodic table.
-2.  **Clues:**
-    *   Four clues are provided in a specific order to help you identify the mystery element.
-    *   Clue 1: State of matter at room temperature.
-    *   Clue 2: Group and period on the periodic table.
-    *   Clue 3: A common real-world application.
-    *   Clue 4: Electron configuration and atomic mass.
-3.  **Guess Attempts:**
-    *   You have three attempts to guess the element correctly for each revealed clue.
-4.  **Input:**
-    *   You can enter either the element's name or its symbol as your guess.
-5.  **Feedback:**
-    *   If your guess is incorrect, you'll receive feedback to guide you closer to the correct answer, such as hints about the atomic number, group, period, or state of matter.
-    *   If you run out of guesses for a clue, the next clue is revealed, and your score is reduced by 10 points.
+---
 
-### Bonding Challenge Phase
+## ✨ Key Features
 
-1.  **Bonding Scenario:**
-    *   Once you correctly identify the mystery element, you'll proceed to the Bonding Challenge.
-    *   The game pairs the mystery element with a bonding partner based on chemical properties.
-2.  **Multiple-Choice Questions:**
-    *   You'll be presented with a series of multiple-choice questions about the type of bond formed, electron behavior, and properties of the resulting compound.
-3.  **Visual Aids:**
-    *   Electron dot diagrams are displayed for both the mystery element and its bonding partner to help visualize valence electrons.
-4.  **Explanations:**
-    *   Detailed explanations are provided for each answer to enhance your understanding of chemical bonding concepts.
+* **Guess the Element:** An interactive guessing game for the first 20 elements.
+* **Progressive Clues:** Get step-by-step hints (State, Group/Period, Application, Electron Config).
+* **Bonding Challenge:** Test your understanding of chemical bonds with multiple-choice questions.
+* **Visual Aids:** Electron dot diagrams help visualize valence electrons.
+* **Detailed Explanations:** Understand bonding concepts with explanations for each answer.
+* **Scoring System:** Earn points and receive a final grade.
+* **Modern & Responsive:** Built with current web technologies.
 
-### Scoring System
+---
 
-*   **Mystery Element:** Correctly guessing the mystery element awards points.
-*   **Bonding Questions:** Answering bonding questions correctly awards 50 points per question.
-*   **Final Grade:** A final grade is calculated based on your total score:
-    *   A+ (250+ points)
-    *   A (225-249 points)
-    *   B+ (200-224 points)
-    *   B (175-199 points)
-    *   C+ (150-174 points)
-    *   C (125-149 points)
-    *   D+ (100-124 points)
-    *   D (75-99 points)
-    *   F (Below 75 points)
+## 🎮 Gameplay
 
-## How to Play
+The game unfolds in two exciting phases:
+
+### 1. Mystery Element Challenge
+
+* **Element Selection:** A mystery element (from the first 20) is randomly chosen.
+* **Clues:** You receive 4 clues, revealed one by one, to help you identify it:
+    1.  State of matter at room temperature.
+    2.  Group and period on the periodic table.
+    3.  A common real-world application.
+    4.  Electron configuration and atomic mass.
+* **Guess Attempts:** You have **3** attempts to guess correctly for each clue.
+* **Input:** Enter either the element's name or its symbol.
+* **Feedback:** If incorrect, you'll get hints (e.g., atomic number, group). If you run out of guesses, the next clue appears, and your score is reduced by 10 points.
+
+### 2. Bonding Challenge Phase
+
+* **Bonding Scenario:** Once you identify the mystery element, it's paired with another element for the Bonding Challenge.
+* **Multiple-Choice Questions:** Answer questions about bond types, electron behavior, and compound properties.
+* **Visual Help:** Electron dot diagrams are displayed.
+* **Learning:** Detailed explanations are provided for each answer.
+
+---
+
+## 🏆 Scoring System
+
+* **Mystery Element:** Points awarded for a correct guess.
+* **Bonding Questions:** **50 points** for each correct answer.
+* **Final Grade:**
+    * **A+** (250+ points)
+    * **A** (225-249 points)
+    * **B+** (200-224 points)
+    * **B** (175-199 points)
+    * **C+** (150-174 points)
+    * **C** (125-149 points)
+    * **D+** (100-124 points)
+    * **D** (75-99 points)
+    * **F** (Below 75 points)
+
+---
+
+## 🕹️ How to Play
 
 1.  Start the game.
-2.  Read the first clue and enter your guess for the mystery element.
-3.  Use the feedback to refine your guesses.
-4.  Once you correctly identify the element, proceed to the Bonding Challenge.
-5.  Answer the bonding questions to the best of your ability.
-6.  Save your score and play again!
+2.  Read the first clue and guess the mystery element.
+3.  Use feedback to refine your guesses.
+4.  Correctly identify the element to proceed to the Bonding Challenge.
+5.  Answer the bonding questions.
+6.  Check your score and play again!
 
-## Technologies Used
+---
 
-*   React
-*   TypeScript
-*   Tailwind CSS
-*   Lucide React
+## 🛠️ Technologies Used
 
-## Installation Instructions
+* **React:** For building the user interface.
+* **TypeScript:** For static typing and improved code quality.
+* **Tailwind CSS:** For efficient and modern styling.
+* **Lucide React:** For clean and simple icons.
 
-1.  Clone the repository.
-2.  Navigate to the project directory.
-3.  Run `npm install` to install dependencies.
-4.  Run `npm run dev` to start the development server.
+---
 
-## Preview App
-https://element-detective-v2.netlify.app/
+## 🚀 Installation & Running Locally (For Developers)
 
+Want to run this project locally or contribute? Follow these steps:
 
+1.  **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Wildan2150/chem-game-element-detective-v2.git
+    ```
+2.  **Navigate to the Project Directory:**
+    ```bash
+    cd chem-game-element-detective-v2
+    ```
+3.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Run the Development Server:**
+    ```bash
+    npm run dev
+    ```
+    Then, open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+
+---
+
+Happy learning and playing! 🎉
